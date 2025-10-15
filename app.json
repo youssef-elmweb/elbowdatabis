@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "elbowdata",
+    "slug": "elbowdata",
+    "scheme": "elbowdata", 
+    "version": "2.1.9",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "androidStatusBar": {
+      "translucent": true,
+      "barStyle": "dark-content"
+    },
+    "androidNavigationBar": {
+      "backgroundColor": "#00000000",
+      "barStyle": "light-content"
+    },
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "buildNumber": "26",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.trigotube"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.trigotube",
+      "versionCode": 103020
+
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-navigation-bar",
+        {
+          "backgroundColor": "#00000000"
+        }
+      ],
+      "expo-build-properties"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "33b6604b-5571-4d7c-af44-39affecf68b4"
+      }
+    },
+    "owner": "jos59"
+  }
+}

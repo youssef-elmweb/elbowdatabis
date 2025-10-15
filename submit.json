@@ -1,0 +1,12 @@
+{
+  "submit": {
+    "production": {
+      "ios": {
+        "appleApiKeyPath": "./keystore/apple_pipingdata/AuthKey_C69V8XLY4Y.p8",
+        "appleApiKeyId": "WWRU7TFU4P",
+        "appleApiIssuerId": "af11f68f-3429-40b0-aee9-2928b2f558b1",
+        "ascAppId": "6477729206"
+      }
+    }
+  }
+}
